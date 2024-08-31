@@ -369,10 +369,10 @@ verb 3
 
 В параметре remote вместо 123.123.123.123 указываем IP адрес сервера. В тегах вставляем содержимое сгенерированных ранее файлов
 
-* <ca></ca> — вставьте данные из файла `/etc/openvpn/certs/ca.crt`
-* <cert></cert> — вставьте данные из файла `/etc/openvpn/easy-rsa/pki/issued/client1.crt`
-* <key></key> — вставьте данные из файла `/etc/openvpn/easy-rsa/pki/private/client1.key`
-* <tls-auth></tls-auth> — вставьте данные из файла `/etc/openvpn/certs/ta.key`
+* &lt;ca>&lt;/ca&gt; — вставьте данные из файла `/etc/openvpn/certs/ca.crt`
+* &lt;cert>&lt;/cert&gt; — вставьте данные из файла `/etc/openvpn/easy-rsa/pki/issued/client1.crt`
+* &lt;key>&lt;/key&gt; — вставьте данные из файла `/etc/openvpn/easy-rsa/pki/private/client1.key`
+* &lt;tls-auth>&lt;/tls-auth&gt; — вставьте данные из файла `/etc/openvpn/certs/ta.key`
 
 После внесения всех изменений сохраняем файл с расширением .ovpn.<br>
 Чтобы подключится к VPN, необходимо скачать клиент OpenVPN и импортировать в него конфигурационный файл .ovpn.
