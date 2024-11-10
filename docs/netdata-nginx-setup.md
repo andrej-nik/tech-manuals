@@ -25,6 +25,7 @@ sudo apt install nginx -y
 sudo htpasswd -c /etc/nginx/.htpasswd <имя_пользователя>
 ```
 Введите пароль, который будет использоваться для доступа
+
 3. Настраиваем Nginx для проксирования запросов к Netdata.
 Открываем конфигурацию Nginx:
 ```bash
