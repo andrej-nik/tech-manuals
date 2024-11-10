@@ -43,3 +43,11 @@
 - Настройка клиента
 
 [Подробнее...](docs/vps-ssh-key-auth.md)
+
+## Мониторинг с помощью Netdata и Nginx
+
+- Установка Netdata
+- Установка Nginx
+- Настройка Nginx
+
+[Подробнее...](docs/netdata-nginx-setup.md)
